@@ -7,7 +7,7 @@ name = "pympi-ling"
 dynamic = ["version"]
 authors = [
   {name='Mart Lubbers', email="mart@martlubbers.net"},
-  {name='Francisco Toreirra', email="francisco.torreira@mpi.nl"}
+  {name='Francisco Torreira', email="francisco.torreira@mpi.nl"}
 ]
 description = "A python module for processing ELAN and Praat annotation files"
 readme = "README.md"

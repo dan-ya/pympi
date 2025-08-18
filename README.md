@@ -57,10 +57,10 @@ python setup.py install
 ### Authors
 Mart Lubbers (mart at martlubbers.net)
 and
-Francisco Toreirra (francisco.torreira at mpi.nl)
+Francisco Torerira (francisco.torreira at mpi.nl)
 
 and with contributions from:
-sarpu, hadware, thomaskisler, mome, mimrock and xrotwang
+JoFrhwld, sarpu, hadware, thomaskisler, mome, mimrock and xrotwang
 
 [1]: https://tla.mpi.nl/tools/tla-tools/elan/
 [2]: http://www.fon.hum.uva.nl/praat/
