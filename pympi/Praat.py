@@ -2,7 +2,7 @@ import codecs
 import re
 import struct
 
-VERSION = '1.70.2'
+VERSION = '1.71'
 
 
 class TextGrid:
