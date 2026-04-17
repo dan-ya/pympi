@@ -240,13 +240,14 @@ class Eaf:
         """
         self.licenses.append((name, url))
 
-    def add_linguistic_type(self, lingtype, constraints=None,
+def add_linguistic_type(self, lingtype, constraints=None, controlled_vocabulary=None,
                             timealignable=True, graphicreferences=False,
                             extref=None, param_dict=None):
         """Add a linguistic type.
 
         :param str lingtype: Name of the linguistic type.
         :param str constraints: Constraint name.
+        :param str controlled_vocabulary: Controlled vocabulary id.
         :param bool timealignable: Flag for time alignable.
         :param bool graphicreferences: Flag for graphic references.
         :param str extref: External reference.
@@ -268,6 +269,8 @@ class Eaf:
                 'CONSTRAINTS': constraints}
             if extref is not None:
                 self.linguistic_types[lingtype]['EXT_REF'] = extref
+            if controlled_vocabulary is not None:
+                self.linguistic_types[lingtype]['CONTROLLED_VOCABULARY_REF'] = controlled_vocabulary
 
     def add_linked_file(self, file_path, relpath=None, mimetype=None,
                         time_origin=None, ex_from=None):
